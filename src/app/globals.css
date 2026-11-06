@@ -1,26 +1,203 @@
 @import "tailwindcss";
 
+/* ------------------------------------------------------------------ */
+/*  Aamna's Elixir — design tokens                                    */
+/* ------------------------------------------------------------------ */
+
+@theme {
+  /* Brand palette */
+  --color-midnight: #080808;
+  --color-charcoal: #151515;
+  --color-charcoal-2: #1d1b1a;
+  --color-crimson: #7d101c;
+  --color-burgundy: #410811;
+  --color-gold: #c9a45c;
+  --color-champagne: #e6d2a3;
+  --color-ivory: #f5efe5;
+
+  /* Typography (loaded via next/font as CSS vars on <html>) */
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-script: var(--font-pinyon), "Snell Roundhand", cursive;
+
+  /* Motion */
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Base                                                              */
+/* ------------------------------------------------------------------ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-midnight);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-crimson);
+  color: var(--color-champagne);
+}
+
+/* Slim, unobtrusive scrollbar to match the dark aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-charcoal);
+}
+::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--color-gold) 35%, transparent);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--color-gold) 55%, transparent);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Reusable treatments                                               */
+/* ------------------------------------------------------------------ */
+
+/* Gold gradient for the brand wordmark + decorative headings */
+.text-gold {
+  background: linear-gradient(
+    118deg,
+    #8a6d3b 0%,
+    var(--color-gold) 30%,
+    var(--color-champagne) 50%,
+    var(--color-gold) 70%,
+    #8a6d3b 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle gold shimmer sweep, used sparingly on the wordmark */
+.gold-shimmer {
+  background: linear-gradient(
+    110deg,
+    var(--color-gold) 20%,
+    var(--color-champagne) 40%,
+    #fff7e0 50%,
+    var(--color-champagne) 60%,
+    var(--color-gold) 80%
+  );
+  background-size: 220% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gold-sweep 7s linear infinite;
+}
+
+@keyframes gold-sweep {
+  to {
+    background-position: -220% center;
+  }
+}
+
+/* Hairline gold divider */
+.gold-rule {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--color-gold) 60%, transparent),
+    transparent
+  );
+}
+
+/* Soft radial glow used behind product art */
+.glow-burgundy {
+  background: radial-gradient(
+    ellipse at center,
+    color-mix(in srgb, var(--color-burgundy) 65%, transparent) 0%,
+    transparent 70%
+  );
+}
+.glow-gold {
+  background: radial-gradient(
+    ellipse at center,
+    color-mix(in srgb, var(--color-gold) 22%, transparent) 0%,
+    transparent 70%
+  );
+}
+
+/* Signature product-section backgrounds */
+.section-bg-burgundy {
+  background: linear-gradient(180deg, #410811 0%, #1c0608 50%, #080808 100%);
+}
+.section-bg-champagne {
+  background: linear-gradient(180deg, #080808 0%, #171208 45%, #1d1b1a 72%, #080808 100%);
+}
+.section-bg-crimson {
+  background: linear-gradient(180deg, #7d101c 0%, #2a070a 55%, #080808 100%);
+}
+
+/* Gentle vertical float for the hero bottle */
+.hero-float {
+  animation: hero-float 7s ease-in-out infinite;
+}
+@keyframes hero-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+/* Ambient floating particle */
+.float-dot {
+  position: absolute;
+  border-radius: 9999px;
+  background: var(--color-champagne);
+  opacity: 0;
+  animation-name: particle-rise;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+@keyframes particle-rise {
+  0%,
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateY(-30px);
+  }
+}
+
+/* Respect users who prefer reduced motion — disable all decoration */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .gold-shimmer {
+    animation: none;
+    background: var(--color-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }

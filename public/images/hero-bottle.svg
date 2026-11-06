@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 620" fill="none">
+  <defs>
+    <linearGradient id="hb-glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.3" stop-color="#2a2624"/>
+      <stop offset="0.5" stop-color="#4a4038"/>
+      <stop offset="0.7" stop-color="#1a1715"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="hb-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b4f1f"/>
+      <stop offset="0.3" stop-color="#c9a45c"/>
+      <stop offset="0.5" stop-color="#f0dcab"/>
+      <stop offset="0.7" stop-color="#c9a45c"/>
+      <stop offset="1" stop-color="#6b4f1f"/>
+    </linearGradient>
+    <linearGradient id="hb-gold-v" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0dcab"/>
+      <stop offset="0.5" stop-color="#c9a45c"/>
+      <stop offset="1" stop-color="#8a6d3b"/>
+    </linearGradient>
+    <linearGradient id="hb-highlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hb-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9a45c" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#c9a45c" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="130" cy="600" rx="58" ry="9" fill="#000000" opacity="0.55"/>
+
+  <!-- stopper -->
+  <path d="M112 132 Q112 116 130 112 Q148 116 148 132 Z" fill="url(#hb-gold-v)"/>
+  <rect x="122" y="132" width="16" height="10" rx="3" fill="url(#hb-gold)"/>
+
+  <!-- neck -->
+  <rect x="118" y="142" width="24" height="26" fill="url(#hb-gold-v)"/>
+
+  <!-- collar -->
+  <rect x="112" y="166" width="36" height="10" rx="4" fill="url(#hb-gold)"/>
+
+  <!-- flacon body -->
+  <path d="M96 176 L96 520 Q96 546 122 546 L138 546 Q164 546 164 520 L164 176 Z" fill="url(#hb-glass)"/>
+  <path d="M96 176 L96 520 Q96 546 122 546 L138 546 Q164 546 164 520 L164 176 Z" fill="url(#hb-highlight)" opacity="0.55"/>
+
+  <!-- gold edge fillets -->
+  <path d="M96 176 L96 520" stroke="url(#hb-edge)" stroke-width="2"/>
+  <path d="M164 176 L164 520" stroke="url(#hb-edge)" stroke-width="2"/>
+
+  <!-- monogram -->
+  <text x="130" y="380" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="60" fill="#e6d2a3" opacity="0.9">AE</text>
+  <line x1="112" y1="404" x2="148" y2="404" stroke="#c9a45c" stroke-width="1" opacity="0.9"/>
+  <text x="130" y="436" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#c9a45c" letter-spacing="4">ELIXIR</text>
+</svg>
