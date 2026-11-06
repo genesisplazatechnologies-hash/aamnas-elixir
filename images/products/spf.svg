@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 560" fill="none">
+  <defs>
+    <linearGradient id="spf-body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a0408"/>
+      <stop offset="0.22" stop-color="#7d101c"/>
+      <stop offset="0.42" stop-color="#a51a28"/>
+      <stop offset="0.62" stop-color="#7d101c"/>
+      <stop offset="1" stop-color="#1f0306"/>
+    </linearGradient>
+    <linearGradient id="spf-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b4f1f"/>
+      <stop offset="0.3" stop-color="#c9a45c"/>
+      <stop offset="0.5" stop-color="#f0dcab"/>
+      <stop offset="0.7" stop-color="#c9a45c"/>
+      <stop offset="1" stop-color="#6b4f1f"/>
+    </linearGradient>
+    <linearGradient id="spf-gold-v" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0dcab"/>
+      <stop offset="0.5" stop-color="#c9a45c"/>
+      <stop offset="1" stop-color="#8a6d3b"/>
+    </linearGradient>
+    <linearGradient id="spf-label" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efe5"/>
+      <stop offset="1" stop-color="#e6d9c2"/>
+    </linearGradient>
+    <linearGradient id="spf-highlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="130" cy="546" rx="62" ry="9" fill="#000000" opacity="0.55"/>
+
+  <!-- tube body -->
+  <rect x="80" y="150" width="100" height="382" rx="20" fill="url(#spf-body)"/>
+  <rect x="80" y="150" width="100" height="382" rx="20" fill="url(#spf-highlight)" opacity="0.5"/>
+
+  <!-- crimp -->
+  <path d="M96 150 L96 136 Q96 128 104 128 L156 128 Q164 128 164 136 L164 150 Z" fill="url(#spf-body)"/>
+
+  <!-- gold cap -->
+  <rect x="88" y="76" width="84" height="60" rx="12" fill="url(#spf-gold)"/>
+  <rect x="88" y="76" width="84" height="60" rx="12" fill="url(#spf-highlight)" opacity="0.4"/>
+  <rect x="88" y="98" width="84" height="3" fill="#6b4f1f" opacity="0.5"/>
+
+  <!-- gold neck ring -->
+  <rect x="92" y="136" width="76" height="14" rx="5" fill="url(#spf-gold-v)"/>
+
+  <!-- label -->
+  <rect x="90" y="270" width="80" height="176" rx="6" fill="url(#spf-label)"/>
+  <rect x="90" y="270" width="80" height="176" rx="6" fill="none" stroke="#c9a45c" stroke-width="1.5"/>
+  <text x="130" y="310" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#410811" letter-spacing="0.5">Aamna's Elixir</text>
+  <text x="130" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#7d101c" letter-spacing="6">SPF</text>
+  <text x="130" y="390" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" fill="#7d101c" letter-spacing="3">DAILY</text>
+  <line x1="106" y1="408" x2="154" y2="408" stroke="#c9a45c" stroke-width="1"/>
+  <text x="130" y="428" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#8a6d3b" letter-spacing="1">50 ml</text>
+</svg>

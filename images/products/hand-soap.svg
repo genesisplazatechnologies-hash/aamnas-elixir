@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 560" fill="none">
+  <defs>
+    <linearGradient id="hs-glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a0408"/>
+      <stop offset="0.28" stop-color="#7d101c"/>
+      <stop offset="0.52" stop-color="#b3242f"/>
+      <stop offset="0.78" stop-color="#7d101c"/>
+      <stop offset="1" stop-color="#1f0306"/>
+    </linearGradient>
+    <linearGradient id="hs-gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6b4f1f"/>
+      <stop offset="0.3" stop-color="#c9a45c"/>
+      <stop offset="0.5" stop-color="#f0dcab"/>
+      <stop offset="0.7" stop-color="#c9a45c"/>
+      <stop offset="1" stop-color="#6b4f1f"/>
+    </linearGradient>
+    <linearGradient id="hs-highlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hs-label" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5efe5"/>
+      <stop offset="1" stop-color="#e6d9c2"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="130" cy="546" rx="62" ry="9" fill="#000000" opacity="0.55"/>
+
+  <!-- bottle body with shoulders -->
+  <path d="M78 210 Q78 170 100 168 L160 168 Q182 170 182 210 L182 470 Q182 500 152 500 L108 500 Q78 500 78 470 Z" fill="url(#hs-glass)"/>
+  <path d="M78 210 Q78 170 100 168 L160 168 Q182 170 182 210 L182 470 Q182 500 152 500 L108 500 Q78 500 78 470 Z" fill="url(#hs-highlight)" opacity="0.5"/>
+
+  <!-- neck -->
+  <rect x="104" y="140" width="52" height="30" rx="6" fill="url(#hs-gold)"/>
+
+  <!-- pump collar + spout -->
+  <rect x="98" y="118" width="64" height="26" rx="8" fill="url(#hs-gold)"/>
+  <rect x="98" y="118" width="64" height="26" rx="8" fill="url(#hs-highlight)" opacity="0.4"/>
+  <path d="M162 128 L200 120 L204 132 L166 142 Z" fill="url(#hs-gold)"/>
+  <rect x="204" y="122" width="8" height="10" rx="2" fill="#6b4f1f"/>
+  <!-- pump stem -->
+  <rect x="126" y="94" width="8" height="26" rx="3" fill="url(#hs-gold)"/>
+
+  <!-- label -->
+  <rect x="94" y="300" width="72" height="150" rx="6" fill="url(#hs-label)"/>
+  <rect x="94" y="300" width="72" height="150" rx="6" fill="none" stroke="#c9a45c" stroke-width="1.5"/>
+  <text x="130" y="336" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" fill="#410811" letter-spacing="0.5">Aamna's Elixir</text>
+  <text x="130" y="378" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7d101c" letter-spacing="3">HAND</text>
+  <text x="130" y="394" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7d101c" letter-spacing="3">SOAP</text>
+  <line x1="106" y1="412" x2="154" y2="412" stroke="#c9a45c" stroke-width="1"/>
+  <text x="130" y="432" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#8a6d3b" letter-spacing="1">300 ml</text>
+</svg>

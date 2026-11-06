@@ -1,0 +1,48 @@
+1:"$Sreact.fragment"
+2:"static/chunks/c15bf2b0-c080c4e45c5fb392.js"
+3:"static/chunks/500-fc3b64d9ff4a32a7.js"
+4:"static/chunks/50-f58e2927e03d1b3e.js"
+5:"static/chunks/617-fdbb28b9a3946a41.js"
+6:"static/chunks/app/layout-6a5379648d2ee1e0.js"
+7:I[805,["592","$2","500","$3","50","$4","617","$5","177","$6"],"CartProvider"]
+8:I[6237,["592","$2","500","$3","50","$4","617","$5","177","$6"],"Navbar"]
+9:I[7121,[],""]
+a:I[4581,[],""]
+b:"static/chunks/app/page-5468d591d48f37a1.js"
+c:I[4327,["592","$2","500","$3","50","$4","617","$5","974","$b"],"Button"]
+d:I[8500,["592","$2","500","$3","50","$4","617","$5","974","$b"],""]
+e:I[2960,["592","$2","500","$3","50","$4","617","$5","177","$6"],"NewsletterForm"]
+19:I[7123,[],"default",1]
+:HL["/aamnas-elixir/_next/static/media/6c32053678f0295c-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/media/7b89a4fd5e90ede0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/media/8760c4774489e4ba-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/css/5f4734e78b5420e2.css","style"]
+15:X
+16:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L17","p":false,"v":null}}]]
+13:[["children",{"s":"checkout","h":512,"d":{"r":"$L14","p":false,"v":"$15"},"c":"$Q16"}]]
+0:{"P":null,"c":["","checkout",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/aamnas-elixir/_next/static/css/5f4734e78b5420e2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_2db437 __variable_c773f7 __variable_4f666d antialiased","children":["$","body",null,{"className":"flex min-h-screen flex-col bg-midnight font-sans text-ivory","children":["$","$L7",null,{"children":[["$","$L8",null,{}],["$","main",null,{"className":"flex-1","children":["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","section",null,{"className":"flex min-h-screen items-center justify-center bg-midnight px-5 pt-20","children":["$","div",null,{"className":"text-center","children":[["$","p",null,{"className":"font-script text-7xl text-gold","children":"404"}],["$","h1",null,{"className":"mt-4 font-serif text-3xl font-medium text-ivory","children":"This page has slipped away."}],["$","p",null,{"className":"mt-4 font-sans text-base font-light text-ivory/60","children":"The page you are looking for could not be found."}],["$","div",null,{"className":"mt-10 flex justify-center","children":["$","$Lc",null,{"href":"/","children":"Return Home"}]}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-gold/10 bg-charcoal","children":["$","div",null,{"className":"mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20","children":[["$","div",null,{"className":"grid grid-cols-1 gap-12 md:grid-cols-12","children":[["$","div",null,{"className":"md:col-span-5","children":[["$","$Ld",null,{"href":"/","className":"font-script text-3xl leading-none text-gold","children":"Aamna’s Elixir"}],["$","p",null,{"className":"mt-5 max-w-sm font-sans text-sm font-light leading-relaxed text-ivory/55","children":"Where timeless elegance meets the science of beautiful skin. A skincare ritual designed to elevate everyday moments into something extraordinary."}],["$","div",null,{"className":"mt-8 max-w-sm","children":[["$","p",null,{"className":"font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-gold","children":"Newsletter"}],["$","$Le",null,{}]]}]]}],["$","div",null,{"className":"md:col-span-2","children":[["$","p",null,{"className":"font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-gold","children":"Shop"}],["$","ul",null,{"className":"mt-5 space-y-3","children":[["$","li",null,{"children":["$","$Ld",null,{"href":"/shop","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"All Products"}]}],[["$","li","spf",{"children":["$","$Ld",null,{"href":"/products/spf","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"SPF"}]}],["$","li","moisturizer",{"children":["$","$Ld",null,{"href":"/products/moisturizer","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Moisturizer"}]}],["$","li","hand-soap",{"children":["$","$Ld",null,{"href":"/products/hand-soap","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Hand Soap"}]}]]]}]]}],["$","div",null,{"className":"md:col-span-2","children":[["$","p",null,{"className":"font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-gold","children":"Customer Service"}],["$","ul",null,{"className":"mt-5 space-y-3","children":[["$","li",null,{"children":["$","$Ld",null,{"href":"/contact","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Contact Us"}]}],["$","li",null,{"children":["$","$Ld",null,{"href":"/policies/shipping-returns","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Shipping & Returns"}]}],["$","li",null,{"children":["$","$Ld",null,{"href":"/policies/privacy-policy","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Privacy Policy"}]}],["$","li",null,{"children":["$","$Ld",null,{"href":"/policies/terms","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Terms & Conditions"}]}]]}]]}],["$","div",null,{"className":"md:col-span-3","children":["$Lf","$L10"]}]]}],"$L11"]}]}],"$L12"]}]}]}]]}],"p":false,"v":null},"c":"$Q13"},"h":{"r":"$L18","p":false,"v":null}},"m":"$undefined","G":["$19",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"NhLhVMsmDKkR6N70d6vfv"}
+1a:I[5661,["592","$2","500","$3","50","$4","617","$5","177","$6"],"CopyrightYear"]
+1b:I[8510,["592","$2","500","$3","50","$4","617","$5","177","$6"],"CartDrawer"]
+1c:I[1304,[],"ClientPageRoot"]
+1d:"static/chunks/app/checkout/page-f37b01415d892407.js"
+1e:I[2670,["500","$3","279","$1d"],"default"]
+21:I[484,[],"OutletBoundary"]
+22:"$Sreact.suspense"
+24:"ViewportBoundary"
+25:I[484,[],"$24"]
+27:"MetadataBoundary"
+28:I[484,[],"$27"]
+f:["$","p",null,{"className":"font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-gold","children":"The House"}]
+10:["$","ul",null,{"className":"mt-5 space-y-3","children":[["$","li",null,{"children":["$","$Ld",null,{"href":"/our-story","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Our Story"}]}],["$","li",null,{"children":["$","$Ld",null,{"href":"/ingredients","className":"font-sans text-sm text-ivory/60 transition-colors hover:text-champagne","children":"Ingredients & Philosophy"}]}]]}]
+11:["$","div",null,{"className":"mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row","children":[["$","p",null,{"className":"font-sans text-xs text-ivory/40","children":["© ",["$","$L1a",null,{}]," Aamna’s Elixir. All rights reserved."]}],["$","p",null,{"className":"font-sans text-xs text-ivory/40","children":"Crafted with intention."}]]}]
+12:["$","$L1b",null,{}]
+14:["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+17:["$","$1","c",{"children":[["$","$L1c",null,{"Component":"$1e","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@1f","$@20"]}}],null,["$","$L21",null,{"children":["$","$22",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]]}]
+18:["$","$1","h",{"children":[null,["$","$L25",null,{"children":"$L26"}],["$","$L28",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$22",null,{"name":"Next.Metadata","children":"$L29"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:C
+1f:{}
+20:"$17:props:children:0:props:serverProvidedParams:params"
+26:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2a:I[6869,[],"IconMark"]
+23:null
+29:[["$","title","0",{"children":"Aamna's Elixir — Luxury Skincare"}],["$","meta","1",{"name":"description","content":"Where timeless elegance meets the science of beautiful skin. Luxury skincare, thoughtfully presented."}],["$","meta","2",{"property":"og:title","content":"Aamna's Elixir — Luxury Skincare"}],["$","meta","3",{"property":"og:description","content":"Where timeless elegance meets the science of beautiful skin."}],["$","meta","4",{"property":"og:site_name","content":"Aamna's Elixir"}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Aamna's Elixir — Luxury Skincare"}],["$","meta","8",{"name":"twitter:description","content":"Where timeless elegance meets the science of beautiful skin."}],["$","link","9",{"rel":"icon","href":"/aamnas-elixir/favicon.ico?7161ee1d105bc9c7","type":"image/x-icon","sizes":"48x48"}],["$","$L2a","10",{}]]

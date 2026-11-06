@@ -1,0 +1,7 @@
+:HL["/aamnas-elixir/_next/static/media/6c32053678f0295c-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/media/7b89a4fd5e90ede0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/media/8760c4774489e4ba-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aamnas-elixir/_next/static/css/5f4734e78b5420e2.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"ingredients","h":96,"c":"$Q2"}]]
+0:{"b":"NhLhVMsmDKkR6N70d6vfv","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
